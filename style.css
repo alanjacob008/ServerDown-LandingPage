@@ -1,0 +1,77 @@
+body {
+  background: #141313;
+}
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.text {
+  color: #bdbdbd;
+  text-align: center;
+  font-family: "alan";
+}
+h1 {
+  font-size: 85px;
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+p {
+  font-family: "alan2";
+  margin-top: -55px;
+}
+.text2 {
+  margin-top: 135px;
+  color: #bdbdbd;
+  text-align: center;
+}
+@font-face {
+  font-family: "alan";
+  src: url("/font.otf");
+}
+@font-face {
+  font-family: "alan2";
+  src: url("/font2.otf");
+}
+
+.custom-search {
+  position: absolute;
+  width: 370px;
+  margin-left: 580px;
+  margin-top: 50px;
+}
+.custom-search-input {
+  width: 100%;
+  border: 1px solid #292929;
+  border-radius: 5px;
+  padding: 15px 100px 15px 20px;
+  line-height: 1;
+  box-sizing: border-box;
+  outline: none;
+  background-color: #292929;
+  font-family: "alan2";
+  color: #bdbdbd;
+}
+.custom-search-botton {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+  border: 0;
+  background: white;
+  color: #141313;
+  outline: none;
+  margin: 0;
+  padding: 0 10px;
+  border-radius: 5px;
+  z-index: 2;
+  font-family: "alan2";
+}
